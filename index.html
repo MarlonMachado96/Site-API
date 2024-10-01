@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistema Solar</title>
+</head>
+<body>
+    <header>
+        <h1>Corpos Celestes</h1>
+        <input type="text" id="searchInput" placeholder="Filtrar por nome...">
+        <select id="filterSelect">
+            <option value="">Todos</option>
+            <option value="planet">Planeta</option>
+            <option value="star">Estrela</option>
+            <option value="moon">Lua</option>
+            <option value="dwarf planet">Planeta anão</option>
+            <option value="comet">Cometa</option>
+            <option value="asteroid">Asteroide</option>
+        </select>
+        <button id="showFavoritesBtn">Mostrar Favoritos</button>
+    </header>
+    <main>
+        <div id="bodyContainer"></div>
+    </main>
+    <footer>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Favoritos</h2>
+            <div id="favoritesList"></div>
+        </div>
+    </div>
+
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
