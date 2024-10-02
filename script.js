@@ -1,5 +1,4 @@
 const bodyContainer = document.getElementById('bodyContainer');
-const loadMoreBtn = document.getElementById('loadMoreBtn');
 const searchInput = document.getElementById('searchInput');
 const filterSelect = document.getElementById('filterSelect');
 const modal = document.getElementById('modal');
